@@ -10,5 +10,6 @@ class EmailAddressParser
 
   def parse
     rows = @email.split(/[,\s]+/)
+    
   end
 end
